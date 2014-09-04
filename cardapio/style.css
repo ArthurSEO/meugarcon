@@ -1,0 +1,157 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-family: helvetica, arial, sans-serif;
+	color: #555;
+}
+
+a {
+	text-decoration: none;
+	color: #555;
+}
+
+ul {
+	width: 260px;
+	margin: 0 auto;
+	list-style: none;
+}
+
+.button {
+	width: auto;
+	height: auto;
+	padding: 2px 5px;
+	background-color: #ccc;
+	border: 1px solid #aaa;
+	color: #555;
+	margin: 2px 0;
+	border-radius: 5px;
+}
+
+.loginbox {
+	width: 300px;
+	background-color: #f1f1f1;
+	margin: 100px auto 0;
+	border: 1px solid #ccc;
+	padding: 20px 0;
+	border-radius: 5px;
+}
+
+.loginbox .text {
+	width: 100%;
+	height: 24px;
+	border: 1px solid #ccc;
+	margin: 2px 0;
+	border-radius: 5px;
+}
+
+aside {
+	width: 20%;
+	height: 100%;
+	background-color: #ccc;
+	float: left;
+}
+
+aside h1,
+aside h2,
+aside li {
+	width: 90%;
+	margin: 0 auto;
+}
+
+aside h1 {
+	font-size: 30px;
+	font-weight: 100;
+	line-height: 60px;
+}
+
+aside h2 {
+	font-size: 22px;
+	font-weight: 100;
+	margin-top: 20px;
+}
+aside li {
+	background-color: #bbb;
+	padding: 5px 10px;
+	margin: 3px 0;
+	border-radius: 5px;
+	border: 1px solid #aaa;
+}
+
+aside li:hover {
+	background-color: #aaa;
+	border-color: #777;
+}
+
+aside .legenda {
+	font-size: 14px;
+}
+
+section {
+	width: 80%;
+	float: right;
+	height: 100%;
+	background-color: #f1f1f1;
+}
+
+.mesa {
+	width: 195px;
+	height: 80px;
+	margin: 10px;
+	float: left;
+	background-color: #eee;
+	border: 1px solid #ddd;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 18px;
+	cursor: pointer;
+	color: #aaa;
+}
+
+.mesa:hover {
+	/*background-color: #e0e0e0;*/
+}
+.ocupada {
+	background-color: #ccc;
+}
+.livre {
+	background-color: #A6EBA3;
+}
+.pendente {
+	background-color: #E1E143;
+}
+.aguardando {
+	background-color: #FBA9A9;
+}
+.fecharconta {
+	background-color: #888;
+}
+
+.mesa-option ul {
+	margin: 0 auto;
+	width: 375px;
+}
+.mesa-option li {
+	margin: 5px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	background-color: #ccc;
+}
+
+.mesa-option li#encerrar-conta,
+.mesa-option li#gerar-senha,
+.mesa-option li#entregar,
+.mesa-option li#pedido,
+.mesa-option li#ver {
+	cursor: pointer;
+}
+.mesa-option li.senha {
+	text-align: center;
+}
